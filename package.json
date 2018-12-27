@@ -3,7 +3,8 @@
   "description": "",
   "version": "1.0.0",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "start": "http-server -p 3000 -o /src/index.html"
   },
   "devDependencies": {
     "assemblyscript": "AssemblyScript/assemblyscript",
